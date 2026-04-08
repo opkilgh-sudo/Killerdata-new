@@ -9,7 +9,7 @@ return {
             Size = Vector3.new(4.5, 6, 7.5), 
             Offset = 2.5      
         },
-        ["Skill_1"] = { -- สกิลที่มีดาเมจอันที่ 1
+        ["Behead"] = { -- สกิลที่มีดาเมจอันที่ 1
             Sounds = {}, 
             Animations = {}, 
             MaxTime = 0.45, 
@@ -18,7 +18,7 @@ return {
             Size = Vector3.new(4.5, 6, 7.5), 
             Offset = 2.5
         },
-        ["Skill_2"] = { -- สกิลที่มีดาเมจอันที่ 2
+        ["Gashing Wound"] = { -- สกิลที่มีดาเมจอันที่ 2
             Sounds = {}, 
             Animations = {}, 
             MaxTime = 0.45, 
