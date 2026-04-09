@@ -35,9 +35,9 @@ return {
                 ["86494585504534"] = true, ["127793641088496"] = true 
             }, 
             Animations = {}, 
-            MaxTime = 0.45, 
-            Sequences = 16, 
-            KillAt = 15,
+            MaxTime = 0.5, 
+            Sequences = 10, 
+            KillAt = 10,
             Size = Vector3.new(4.5, 6, 7.5), 
             Offset = 2.5
         }
