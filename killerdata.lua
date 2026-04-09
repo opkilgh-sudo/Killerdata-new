@@ -1,6 +1,6 @@
 return {
     ["Slasher"] = {
-        ["M1"] = { -- สกิลหลัก (ฟันปกติ)
+        ["M1"] = {
             Sounds = { 
                 ["112809109188560"] = true, ["124903763333174"] = true, 
                 ["116581754553533"] = true, ["107444859834748"] = true, 
@@ -14,7 +14,7 @@ return {
             Size = Vector3.new(4.5, 6, 7.5), 
             Offset = 2.5      
         },
-        ["Behead"] = { -- สกิลตัดหัว (ใช้ Animation ID)
+        ["Behead"] = {
             Sounds = {}, 
             Animations = { 
                 ["126355327951215"] = true, ["126727756047566"] = true, 
@@ -27,7 +27,7 @@ return {
             Size = Vector3.new(8, 2, 7), 
             Offset = 2.8
         },
-        ["Gashing Wound"] = { -- สกิลแผลฉกรรจ์ (ใช้ Sound ID)
+        ["Gashing Wound"] = {
             Sounds = { 
                 ["102228729296384"] = true, ["110372418055226"] = true, 
                 ["72425554233832"] = true, ["86833981571073"] = true, 
@@ -40,6 +40,27 @@ return {
             KillAt = 10,
             Size = Vector3.new(8, 4, 8), 
             Offset = 1.5
+        }
+    },
+
+    ["c00lkidd"] = {
+        ["M1"] = {
+            Sounds = {},      
+            Animations = {},  
+            MaxTime = 0.45,   
+            Sequences = 15,   
+            KillAt = 15,      
+            Size = Vector3.new(4.5, 6, 5), 
+            Offset = 2.5      
+        },
+        ["Walkspeed Override"] = {
+            Sounds = {}, 
+            Animations = {}, 
+            MaxTime = 0.45, 
+            Sequences = 15, 
+            KillAt = 15,
+            Size = Vector3.new(4.5, 6, 5), 
+            Offset = 2.5
         }
     }
 }
