@@ -24,7 +24,7 @@ return {
             MaxTime = 0.6, 
             Sequences = 9, 
             KillAt = 9,
-            Size = Vector3.new(4.5, 6, 7.5), 
+            Size = Vector3.new(8, 2, 7), 
             Offset = 2.5
         },
         ["Gashing Wound"] = { -- สกิลแผลฉกรรจ์ (ใช้ Sound ID)
@@ -38,7 +38,7 @@ return {
             MaxTime = 0.5, 
             Sequences = 10, 
             KillAt = 10,
-            Size = Vector3.new(4.5, 6, 7.5), 
+            Size = Vector3.new(8, 4, 8), 
             Offset = 2.5
         }
     }
