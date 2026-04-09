@@ -53,12 +53,17 @@ return {
             Size = Vector3.new(4.5, 6, 5), 
             Offset = 2.5      
         },
-        ["Walkspeed Override"] = {
+        ["Charge_Effect"] = {
+            Mode = "Charge",
             Sounds = {}, 
             Animations = {}, 
-            MaxTime = 0.45, 
-            Sequences = 15, 
-            KillAt = 15,
+            Size = Vector3.new(4.5, 6, 5), 
+            Offset = 2.5
+        },
+        ["Walkspeed Override"] = {
+            Mode = "Continuous",
+            Sounds = {}, 
+            Animations = {}, 
             Size = Vector3.new(4.5, 6, 5), 
             Offset = 2.5
         }
