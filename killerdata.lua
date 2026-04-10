@@ -46,7 +46,11 @@ return {
     ["c00lkidd"] = {
         ["M1"] = {
             Sounds = {},      
-            Animations = {},  
+            Animations = {
+                ["18885909645"] = true, ["84069821282466"] = true, 
+                ["114126519127454"] = true, ["99824350842479"] = true, 
+                ["70371667919898"] = true
+            },  
             MaxTime = 0.45,   
             Sequences = 15,   
             KillAt = 15,      
@@ -56,15 +60,23 @@ return {
         ["Charge_Effect"] = {
             Mode = "Charge",
             Sounds = {}, 
-            Animations = {}, 
-            Size = Vector3.new(4.5, 6, 5), 
+            Animations = {
+                ["98456918873918"] = true, ["135283134632311"] = true, 
+                ["98590570796574"] = true, ["109486609489179"] = true, 
+                ["99135633258223"] = true
+            }, 
+            Size = Vector3.new(7, 5, 6), 
             Offset = 2.5
         },
         ["Walkspeed Override"] = {
             Mode = "Continuous",
             Sounds = {}, 
-            Animations = {}, 
-            Size = Vector3.new(4.5, 6, 5), 
+            Animations = {
+                ["106776364623742"] = true, ["127846074966393"] = true, 
+                ["131219306779772"] = true, ["132243194360714"] = true, 
+                ["97167027849946"] = true
+            }, 
+            Size = Vector3.new(7, 5, 6), 
             Offset = 2.5
         }
     }
