@@ -66,7 +66,7 @@ return {
                 ["99135633258223"] = true
             }, 
             Size = Vector3.new(7, 5, 6), 
-            Offset = 2.5
+            Offset = 0.5
         },
         ["Walkspeed Override"] = {
             Mode = "Continuous",
@@ -77,7 +77,7 @@ return {
                 ["97167027849946"] = true
             }, 
             Size = Vector3.new(7, 5, 6), 
-            Offset = 2.5
+            Offset = 0.5
         }
     }
 }
